@@ -1,3 +1,11 @@
 env:
   root_path: '/root/user/path/'
   logs: 'path/to/logs/debug.log'
+
+backups:
+  - backup:
+      src: 'source_folder'
+      target: 
+        bucket: 's3-bucket'
+        key: 'key or subfolder name'
+            
